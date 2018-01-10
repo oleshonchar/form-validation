@@ -4,6 +4,7 @@ body {
 
 #wrapper {
     width: 25%;
+    height: 430px;
     margin: 50px auto;
     padding: 45px;
     background: #fff;
@@ -34,7 +35,7 @@ form div {
     border: none;
     border-bottom: 1px solid black;
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px 5px;
     width: 95%;
     font-family: "HelveticaNeue LT 35 Thin";
@@ -67,4 +68,5 @@ form div {
 .btn:focus {
     border: 2px solid black;
     outline: none;
+    transition: border .2s ease;
 }
